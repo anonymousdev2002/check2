@@ -269,286 +269,15 @@
         }
     }
     @media only screen and (max-width: 600px) {
-        <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Sen:wght@400..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-    <title>Arunachal Pradesh</title>
-    <style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            font-family: "Poppins", sans-serif;
-            font-weight: 500;
-            font-style: normal;
-        }
-
-    
-        .container {
-            position: relative;
-            width: 100%;
-            height: 100vh;
-            overflow: hidden;
-        }
-        .backgroundvideo{
-    
-    position:fixed;
-    top: 0%;
-    right: 0%;
-    left: 0%;
-    bottom: 0%;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    background-size: cover;
-    object-fit:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    filter: blur(1.5px);
-   
-    }
-    
-        
-
-        
         .content {
-            width: 190px;
-            position: absolute;
-            z-index: 1;
-            color: rgb(234, 191, 18);
-            font-size: 28px;
-            text-align: center;
-            padding-left: 30px;
-        
-        }
-        .content{
-            font-weight: bold;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
-            justify-content: center;
-            margin: auto;
-            text-align: center;
-            align-items: center;
-        }
-        .content h1{
-            font-size: 100px;
-            
-            
-        }
-        .content h2{
-           padding-left: 10px;
-            width:600px;
-            font-size: 35px;
-            text-decoration: red underline;
-        }
-        .main{
-            position: relative;
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
-            margin-top: 8.5%;
-            padding:25px; 
-       
-        }
-
-        .container2 {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: flex-end; 
-            gap: 40px;
-            width: 700px;
-            
-        }
-
-        .box {
-            width: 190px;
-    height: 140px;
-    background-color: black;
-    border-radius: 10px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 0 35px black;
-    cursor: pointer;
-    border: 2px solid black;
-
-        }
-        .box:hover{
-            box-shadow: 0 0 20px red;
-            transform: scale(1.1);
-        }
-        p{
-            position: absolute;
-            text-align: center;
-        color: white;
-        font-weight: bolder;
-        font-size: small;
-        
-        background-color: black;
-        
-       
-        }
-        #box1{
-            background-image: url(./ARP/arphis.webp);
-            background-size: cover;
-            background-position: center center;
-           }
-        #box2{
-            background-image: url(./ARP/arpgro.webp);
-            background-size: cover;
-            background-position: center center;
-           }
-        #box3{
-            background-image: url(./ARP/arptou.webp);
-            background-size: cover;
-            background-position: center center;
-           }
-        #box4{
-            background-image: url(./ARP/arpeco.avif);
-            background-size: cover;
-            background-position: center center;
-           }
-        #box5{
-            background-image: url(./ARP/arpcul.jpg);
-            background-size: cover;
-            background-position: center center;
-           }
-        #box6{
-            background-image: url(./ARP/arplang.webp);
-            background-size: cover;
-            background-position: center center;
-           }
-           .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    background-color: #333;
-    height: 40px; 
-    padding: 0 15px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-}
-
-.nav-items {
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.nav-items li {
-    margin: 0 15px;
-    position: relative;
-    font-size: 12px; 
-}
-
-.nav-items a {
-    color: white;
-    text-decoration: none;
-    font-weight: 500;
-    transition: color 0.3s ease;
-    padding: 5px 10px; 
-}
-
-.nav-items li::after {
-    content: "";
-    position: absolute;
-    bottom: -3px;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background-color: #4CAF50;
-    transform: scaleX(0);
-    transform-origin: bottom right;
-    transition: transform 0.3s ease-out;
-}
-
-.nav-items a:hover {
-    color: #4CAF50;
-}
-
-.nav-items li:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
-@media only screen and (min-width: 1400px) {
-    .box {
-    width: 219px;
-    height: 168px;
-    
-    }
-    .container2{
-        padding-left: 30px;
-    }
-    .main{
-        padding:30px;
-    }
-    .content h1{
-            font-size: 110px;
-        }
-        .content h2{
-           padding-left: 10px;
-            width:600px;
-            font-size: 38px;
-        }
-        .container2 {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: flex-end; 
-            gap: 40px;
-            width: 900px;
-            
-        }
-}
- @media only screen and (max-width: 1024px) {
-    .box {
-    width: 150px;
-    height: 140px;
-    
-    }
-    .content h1{
-        margin-top: 60%;
-        width: 200px;
-            font-size: 75px;
-           
-        }
-        .content h2{
-           padding-left: 10px;
-            width:400px;
-            font-size: 25px;
-        }
-        .container2 {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: flex-end; 
-            gap: 45px;
-            width: 600px;
-            
-        }
-        .main{
-            
-            margin-top: 12%;
-        }
-    }
-    @media only screen and (max-width: 600px) {
-        .content {
+          
         width: 100%;
         position: absolute;
-        top: 25%; /* Adjust this for vertical alignment */
         left: 50%;
         transform: translate(-50%, -50%);
         z-index: 1;
-        text-align: center;
         color: rgb(234, 191, 18);
+        text-align: center;
         font-weight: bold;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
         display: flex;
@@ -557,23 +286,22 @@
         justify-content: center;
     }
 
-    .content h1, 
-    .content h2 {
-        display: block;
-        text-align: center;
-        width: 100%;
-        margin: 0 auto;
-    }
-
     .content h1 {
-        font-size: 30px; /* Adjust size */
-        margin-bottom: 10px; /* Space between h1 and h2 */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        width: 100%;
+        text-align: center;
     }
 
     .content h2 {
-        font-size: 18px; /* Adjust size */
-        margin-bottom: 20px;
-        text-decoration: underline red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 20px; 
     }
 
 
@@ -616,83 +344,6 @@
         color: white;
     }
         }
-
-    </style>
-</head>
-<body>
-    <video class="backgroundvideo" autoplay loop muted  src="https://videos.pexels.com/video-files/19946229/19946229-hd_1920_1080_30fps.mp4"  ></video>
-    <div class="container">
-        <nav class="navbar">
-            <ul class="nav-items">
-              <li><a href="#">Home</a></li>
-          
-              <li><a href="#">Explore</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </nav>
-        <div class="content">
-            <h1>Arunachal Pradesh</h1>
-            <h2>"Land of the Rising Sun"</h2>
-        </div>
-        <div class="main">
-            <div class="container2">
-                <div class="box" id="box1"><p ><a href="./ARP/arunachalhistory.html">Historical Significance</a></p></div>
-                
-                <div class="box" id="box2"> <p>Geographical Features</p></div>
-                <div class="box" id="box3"> <p>Tourism & Attractions</p></div>
-                <div class="box" id="box4"><p>Economy & Industries</p></div>
-                <div class="box" id="box5"> <p>Cultural Heritage</p></div>
-                <div class="box" id="box6"><p>Language & Cuisine</p></div>
-            </div>
-          </div>
-    </div>
-   
-  
-   
-</body>
-</html>
-
-
-    .container2 {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px; 
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        max-width: 300px; 
-        margin: 50px auto 0; 
-    }
-
-    .box {
-        width: 125px; 
-        height: 110px; 
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: black;
-        border-radius: 10px;
-        box-shadow: 0 0 10px black;
-        cursor: pointer;
-        border: 2px solid black;
-        margin-top: 70px;
-    }
-    .box p {
-        font-size: 8px !important; 
-        font-weight: normal;
-        color: white;
-        text-align: center;
-        margin: 0;
-        padding: 2px;
-    }
-
-    .box a {
-        font-size: 8px !important; 
-        text-decoration: none;
-        color: white;
-    }
-        }
-
     </style>
 </head>
 <body>
