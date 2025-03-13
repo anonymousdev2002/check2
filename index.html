@@ -152,10 +152,13 @@
             background-size: cover;
             background-position: center center;
            }
+           .box a {
+            text-decoration: none  !important;
+    }
            .navbar {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     background-color: #333;
     height: 40px; 
     padding: 0 15px;
@@ -175,7 +178,8 @@
 }
 
 .nav-items li {
-    margin: 0 15px;
+    list-style-type: none;
+    margin: 10px 15px;
     position: relative;
     font-size: 12px; 
 }
@@ -185,7 +189,7 @@
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease;
-    padding: 5px 10px; 
+    padding: 5px 50px;
 }
 
 .nav-items li::after {
@@ -346,7 +350,7 @@
     .navbar {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     background-color: #333;
     height: 30px; 
     padding: 0 15px;
@@ -406,7 +410,7 @@
 </head>
 <body>
     <video class="backgroundvideo" autoplay loop muted  src="https://videos.pexels.com/video-files/19946229/19946229-hd_1920_1080_30fps.mp4"  ></video>
-    <div class="container">
+    
         <nav class="navbar">
             <ul class="nav-items">
               <li><a href="#">Home</a></li>
@@ -415,6 +419,7 @@
               <li><a href="#">Contact</a></li>
             </ul>
           </nav>
+          <div class="container">
         <div class="content">
             <h1>Arunachal Pradesh</h1>
             <h2>"Land of the Rising Sun"</h2>
